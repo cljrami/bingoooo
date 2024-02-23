@@ -1,0 +1,26 @@
+<div class="p-4 max-w-sm mx-auto bg-white rounded-xl shadow-md flex space-x-4">
+  <div class="animate-pulse flex-1 space-y-4">
+    <div class="bg-gray-400 h-12 w-full h-full rounded"></div>
+    <div class="bg-gray-400 h-12 rounded"></div>
+    <div class="bg-gray-400 h-12 rounded"></div>
+    <div class="bg-gray-400 h-12 rounded"></div>
+    <div class="bg-gray-400 h-12 rounded"></div>
+  </div>
+</div>
+<script>
+  setTimeout(() => {
+    const cardContent = `             
+	<div class="p-4 max-w-sm mx-auto bg-white rounded-xl shadow-md flex space-x-4">                 
+		<div class="flex-1 space-y-4">                     
+		<div><img src="https://img.freepik.com/vector-gratis/ilustracion-concepto-vida-startup_114360-1068.jpg?w=740&t=st=1691783956~exp=1691784556~hmac=177647215afe27779bcbb416738514a35feb9366a307c1308fd7495ec56f552a"></div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		             
+		</div>             
+	</div>         
+	`;
+    document.querySelector("body").innerHTML = cardContent;
+  }, 1000);
+</script>
